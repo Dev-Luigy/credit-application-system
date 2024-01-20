@@ -1,6 +1,7 @@
 package me.dio.credit.applicationsystem.entity
 
 import jakarta.persistence.*
+import java.math.BigDecimal
 
 @Entity
 @Table
@@ -17,4 +18,5 @@ data class Customer(
                                         )
         var credits: List<Credit> = mutableListOf(),
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) val id: Long? = null,
+    @Column(nullable = false) var income : BigDecimal = BigDecimal.ZERO
 )
