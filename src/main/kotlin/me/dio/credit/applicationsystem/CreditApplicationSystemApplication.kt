@@ -3,8 +3,7 @@ package me.dio.credit.applicationsystem
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication(scanBasePackages = ["boot.registration"])
-@Suppress("SpringBootConfiguration")
+@SpringBootApplication
 class CreditApplicationSystemApplication
 
 fun main(args: Array<String>) {

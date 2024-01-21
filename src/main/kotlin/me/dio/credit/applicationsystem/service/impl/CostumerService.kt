@@ -3,7 +3,9 @@ package me.dio.credit.applicationsystem.service.impl
 import me.dio.credit.applicationsystem.entity.Customer
 import me.dio.credit.applicationsystem.repository.CustomerRepository
 import me.dio.credit.applicationsystem.service.ICostumerService
+import org.springframework.stereotype.Service
 
+@Service
 class CostumerService (
     private val customerRepository: CustomerRepository
 ): ICostumerService {

@@ -4,8 +4,10 @@ import me.dio.credit.applicationsystem.entity.Credit
 import me.dio.credit.applicationsystem.repository.CreditRepository
 import me.dio.credit.applicationsystem.service.ICreditService
 import org.springframework.data.jpa.repository.Query
+import org.springframework.stereotype.Service
 import java.util.*
 
+@Service
 class CreditService (
     private val creditRepository: CreditRepository,
     private val costumerService: CostumerService
