@@ -1,0 +1,10 @@
+{
+    "firstName": "Luigy",
+    "lastName": "Gabriel",
+    "cpf": "06312835367",
+    "income": 1500.00,
+    "email": "luigygabriel18a@gmail.com",
+    "password": "601486",
+    "zipCode": "63800000",
+    "street": "Rua Luiza Correia 55"
+}
