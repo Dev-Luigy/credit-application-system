@@ -1,0 +1,1 @@
+curl -X GET -H 'Content-Type: application/json' $(cat ../basePath.txt)credit\?customerId=1

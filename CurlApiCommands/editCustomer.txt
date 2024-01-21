@@ -1,0 +1,7 @@
+{
+    "firstName": "Iara",
+    "lastName" : "Alves",
+    "income" : 2500.0,
+    "zipCode" : "69800000",
+    "street" : "Rua das Dores"
+}
